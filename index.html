@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | column tracking dashboard</title>
+
+</head>
+<body>
+  <main class="container">
+    <aside class="left">
+      <article class="left-top"> 
+        <div class="icon">  <img src="./images/image-jeremy.png" alt="image-jeremy" class="image" ></div>
+       <div class="left-content"> 
+        <p class="report">Report for</p>
+        <h1 class="jeremy"> Jeremy Robson</h1>
+         </div>    
+       </article>
+
+        <article class="left-bottom">
+          <div class="period" id="daily">  Daily</div>
+          <div class="period" id="weekly">  Weekly</div>
+          <div class="period" id="monthly"> Monthly</div>
+        </article>
+        
+    </aside>
+        <aside class="right">
+            <section class="top">
+
+                <article class="columns">
+                  <div class="empty" id="empty-1"> <img src="./images/icon-work.svg" alt="icon-work" class="works" ></div>
+                  <div class="filled"  id="filled-1">
+                    <div class="head">
+                      <div class="work">work</div>
+                      <div class="click">---</div>
+                    </div>
+                    <div class="instant"> 
+                      <h1  class="current"> <span id="current">32</span> hrs</h1>
+                      <p class="periods"> <span class="previous-cont">lastweek </span> <span class="previous" id="previous1" >36</span>hrs </p>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="columns">
+                  <div class="empty" id="empty-2"> <img src="./images/icon-play.svg" alt="icon-play" class="works"> </div>
+                  <div class="filled"  id="filled-2">
+                    <div class="head">
+                      <div class="work">play</div>
+                      <div class="click">---</div>
+                    </div>
+                    <div class="instant"> 
+                      <h1 class="current"><span id="current1">10 </span> hrs</h1>
+                      <p class="periods"><span class="previous-cont">lastweek </span><span class="previous" id="previous2">8</span>hrs </p>
+                     </div>
+                  </div>
+                </article>
+
+                <article class="columns">
+                  <div class="empty" id="empty-3"> <img src="./images/icon-study.svg" class="works" alt="icon-study"> </div>
+                  <div class="filled"  id="filled-3">
+                    <div class="head">
+                      <div class="work">study</div>
+                      <div class="click">---</div>
+                    </div>
+                       <div class="instant"> 
+                          <h1 class="current"><span id="current2">4</span>hrs</h1>
+                          <p class="periods"><span class="previous-cont">lastweek </span><span class="previous"><span class="previous" id="previous3">7</span>hrs</span> </p>
+                       </div>
+                  </div>
+                </article>
+            </section>
+
+              <section class="bottom">
+
+                <article class="columns">
+                  <div class="empty" id="empty-4"> <img src="./images/icon-exercise.svg" class="works" alt="icon-exercise"> </div>
+                  <div class="filled"  id="filled-4">
+                    <div class="head">
+                      <div class="work">Exercise</div>
+                      <div class="click">---</div>
+                    </div>
+                      <div class="instant"> 
+                        <h1 class="current"><span id="current3">4</span>hrs</h1>
+                        <p class="periods"><span class="previous-cont">lastweek </span><span class="previous"><span class="previous" id="previous4">5</span>hrs</span> </p>
+                       </div>
+                  </div>
+                </article>
+
+                <article class="columns"> 
+                    <div class="empty" id="empty-5"><img src="./images/icon-social.svg" class="works" alt="icon-social"> </div>
+                    <div class="filled"  id="filled-5">
+                      <div class="head">
+                        <div class="work">Social</div>
+                        <div class="click">---</div>
+                      </div>
+                        <div class="instant">
+                          <h1 class="current"><span id="current4">5</span>hrs</h1>
+                          <p class="periods"><span class="previous-cont">lastweek </span><span class="previous"><span class="previous" id="previous5">10</span>hrs</span> </p>
+                        </div>
+                    </div>
+                  </article>
+
+                <article class="columns">
+                    <div class="empty" id="empty-6"> <img src="./images/icon-self-care.svg" class="works" alt="icon-self-care"> </div>
+                    <div class="filled" id="filled-6" >
+                      <div class="head">
+                        <div class="work">Self Care</div>
+                        <div class="click">---</div>
+                      </div>
+                      <div class="instant"> 
+                        <h1 class="current"><span id="current5">2</span>hrs</h1>
+                        <p class="periods"><span class="previous-cont">lastweek </span><span class="previous"><span class="previous" id="previous6">2</span>hrs</span> </p>
+                       </div>
+                    </div>
+                  </article>
+             
+              </section>
+        </aside>
+
+
+</main>
+<script src="index.js"></script>
+</body>
+</html>
