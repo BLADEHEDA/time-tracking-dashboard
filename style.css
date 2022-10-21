@@ -146,7 +146,9 @@ background:hsl(195, 74%, 62%) ;
     margin-left: 7rem;
     width: 50px;;
 }
-
+.active{
+    color:hsl(43, 84%, 65%);
+}
 /* @media(max-width:375px){ */
 @media only screen and (max-width: 768px) {
     main{

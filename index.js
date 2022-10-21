@@ -133,6 +133,12 @@ let current_day6 = document.querySelector("#current5");
 let previous_day6 = document.querySelector("#previous6");
 days.addEventListener("click" ,  function daily(){
 
+// thIS LINE CHANGES THE COLIR OF THE OPTION CHOOSEN WHEN CLICKED 
+days.classList.add("active");
+weeks.classList.remove("active");
+months.classList.remove("active");
+
+
     // this changes the value of the current value 
     current_day1.textContent= data[0].timeframes.daily.current;
     current_day2.textContent= data[1].timeframes.daily.current;
@@ -158,6 +164,12 @@ previous_day6.textContent= data[5].timeframes.daily.previous;
 //  this displays the current day and week 
 weeks.addEventListener("click" ,  function weekly(){
 
+  // thIS LINE CHANGES THE COLIR OF THE OPTION CHOOSEN WHEN CLICKED 
+days.classList.remove("active");
+weeks.classList.add("active");
+months.classList.remove("active");
+
+
     // this changes the value of the current value 
     current_day1.textContent= data[0].timeframes.weekly.current;
     current_day2.textContent= data[1].timeframes.weekly.current;
@@ -181,6 +193,12 @@ weeks.addEventListener("click" ,  function weekly(){
  });
  //  this displays the current day and week and month
 months.addEventListener("click" ,  function weekly(){
+
+  // thIS LINE CHANGES THE COLIR OF THE OPTION CHOOSEN WHEN CLICKED 
+days.classList.remove("active");
+weeks.classList.remove("active");
+months.classList.add("active");
+
 
     // this changes the value of the current value 
     current_day1.textContent= data[0].timeframes.monthly.current;
